@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+/*Header styling*/
+
+.link , .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a {
+    margin-left: 10px;
+    margin-bottom: 35px;
+    color: #E4E5EB;
+    text-decoration: none;
+}
+
+.header-section {
+    background-color: #1F2936;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.intro {
+    margin-top: 60px;
+}
+
+.intro-txt {
+    width: 25%;
+    margin-right: 10px;
+    font-size: x-large;
+}
+
+#bothCats {
+    width: 25%;
+    height: auto;
+    margin-left: 120px;
+    border-radius: 2px;
+}
+
+#intro-title {
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+#intro-description {
+    margin: 7px 0px;
+    color: #E4E5EB;
+}
+
+.signup-btn , .signup-btn-bottom {
+    background-color: #3782F5;
+    padding: 6px 20px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 800;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    width: 140px;
+    height: 40px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.link{
+    margin-bottom: 30px;
+    border-bottom: 0.0002px solid #41464D;
+}
+
+#catLogo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+/*Post section styling*/
+
+#information {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.post {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#post-img{
+    height: auto;
+    width: 27%;
+    border-radius: 7px;
+    border: 5px solid #3782F5;
+}
+
+.post-content-odd, .post-content-even{
+    width: 27%;
+    font-size: 25px;
+    color: #41464D;
+    line-height: 30px;
+}
+
+.post-content-even {
+    margin-right: 40px;
+}
+
+.post-content-odd {
+    margin-left: 40px;
+}
+
+/*Quote section styling*/
+
+.quote-section {
+    text-align: start;
+    background-color: #E4E5EB;
+    text-shadow: 0px 0px 4px #41464D;
+    color: #1F2936;
+    position: relative;
+    padding: 60px 180px;
+    margin-top: 60px;
+    font-size: 35px;
+}
+
+.quote{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.author {
+    float: right;
+    position: absolute;
+    bottom: 0;
+    right: 165px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-shadow: none;
+}
+
+/*Sign up section styling*/
+
+.signup-section {
+    background-color: #3782F5;
+    width: 40%;
+    padding: 15px 75px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.signup-text {
+    line-height: 5px;
+    margin-right: 70px;
+    margin-left: 0;
+}
+
+.signup-btn-bottom {
+    border: 1px solid #FFFFFF;
+    width: 35%;
+}
+
+.signup-btn-bottom:hover , .signup-btn:hover {
+    cursor: pointer;
+}
+
+.signup-line {
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.signup-prompt {
+    margin-bottom: 12px;
+    margin-top: 18px;
+}
+
+/*Footer styling*/
+
+.footer {
+    background-color: #1F2936;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 150px;
+    margin-top: 60px;
+    font-size: 35px;
+    margin: 0;
+}
+
+/*Part Two post styling*/
+
+.post{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 30px 20px;
+    line-height: 20px;
+}
+
+.post-content {
+    margin: 10px 30px;
+}
+
+.post-title {
+    color: #41464D;
+}
+
+.post-body {
+    color: #3782F5;
+}
+
+/*Part Three styling*/
+.weather {
+    text-align: center;
+    padding: 50px 0px;
+    line-height: 25px;
+    background-color: #FFFFFF;
+    border-bottom:1px solid #E4E5EB;
+}
+
+.location {
+    color: #3782F5;
+}
+
+
